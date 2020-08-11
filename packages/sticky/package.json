@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/sticky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy support for sticky elements on the page.",
   "main": "index.js",
   "scripts": {

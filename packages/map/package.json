@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a simple map via Google Maps.",
   "main": "index.js",
   "scripts": {

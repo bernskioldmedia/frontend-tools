@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/shelves",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create navigation shelves.",
   "main": "index.js",
   "scripts": {

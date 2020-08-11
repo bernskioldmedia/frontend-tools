@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/modals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create simple and accessible modals.",
   "main": "modals.js",
   "scripts": {
@@ -21,6 +21,6 @@
     "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
   },
   "dependencies": {
-    "@bernskioldmedia/scroll-lock": "^1.0.0"
+    "@bernskioldmedia/scroll-lock": "^1.0.1"
   }
 }

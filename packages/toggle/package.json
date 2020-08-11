@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/toggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply add toggling.",
   "main": "index.js",
   "scripts": {
