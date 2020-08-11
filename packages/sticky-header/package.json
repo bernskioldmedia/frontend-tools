@@ -1,0 +1,22 @@
+{
+  "name": "@bernskioldmedia/sticky-header",
+  "version": "1.0.0",
+  "description": "Easily enable support of a sticky-header on scroll.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Bernskiold Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernskioldmedia/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/bernskioldmedia/frontend-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
+  },
+}

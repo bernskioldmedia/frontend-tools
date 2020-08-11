@@ -1,0 +1,15 @@
+{
+  "name": "@bernskioldmedia/frontend-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of frontend tool packages.",
+  "license": "MIT",
+  "homepage": "https://github.com/bernskioldmedia/frontend-tools",
+  "repository": "git+https://github.com/bernskioldmedia/frontend-tools.git",
+  "bugs": {
+    "url": "https://github.com/bernskioldmedia/frontend-tools/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@bernskioldmedia/scroll-lock",
+  "version": "1.0.0",
+  "description": "Helpers to lock the scrolling of the viewport.",
+  "main": "scrollLock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "scroll",
+    "dom",
+    "jquery"
+  ],
+  "author": "Bernskiold Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernskioldmedia/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/bernskioldmedia/frontend-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

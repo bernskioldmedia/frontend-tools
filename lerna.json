@@ -1,0 +1,15 @@
+{
+  "command": {
+    "publish": {
+      "message": "chore(release): publish"
+    }
+  },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/{__mocks__,__tests__,test}/**"
+  ],
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

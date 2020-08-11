@@ -1,0 +1,26 @@
+{
+  "name": "@bernskioldmedia/counters",
+  "version": "1.0.0",
+  "description": "Create simple counters.",
+  "main": "counters.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "counters"
+  ],
+  "author": "Bernskiold Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernskioldmedia/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/bernskioldmedia/frontend-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
+  },
+  "dependencies": {
+    "countup.js": "^2.0.4"
+  }
+}

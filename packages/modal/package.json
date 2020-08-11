@@ -1,0 +1,26 @@
+{
+  "name": "@bernskioldmedia/modals",
+  "version": "1.0.1",
+  "description": "Create simple and accessible modals.",
+  "main": "modals.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "modals"
+  ],
+  "author": "Bernskiold Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernskioldmedia/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/bernskioldmedia/frontend-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
+  },
+  "dependencies": {
+    "@bernskioldmedia/scroll-lock": "^1.0.0"
+  }
+}
