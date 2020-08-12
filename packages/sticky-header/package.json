@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }
