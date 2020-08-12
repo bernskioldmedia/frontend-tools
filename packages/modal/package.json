@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/modals",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create simple and accessible modals.",
   "main": "modals.js",
   "scripts": {
