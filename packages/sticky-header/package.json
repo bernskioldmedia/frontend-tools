@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/sticky-header",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily enable support of a sticky-header on scroll.",
   "main": "index.js",
   "scripts": {

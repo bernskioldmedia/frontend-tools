@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/smooth-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enable support for smooth-scrolling on anchors.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "git+ssh://git@github.com/bernskioldmedia/frontend-tools.git"
   },
   "dependencies": {
-    "smooth-scroll": "^16.1.3",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "smooth-scroll": "^16.1.3"
   }
 }

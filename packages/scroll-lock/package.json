@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/scroll-lock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpers to lock the scrolling of the viewport.",
   "main": "scrollLock.js",
   "scripts": {
