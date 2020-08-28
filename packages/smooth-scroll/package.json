@@ -1,6 +1,6 @@
 {
   "name": "@bernskioldmedia/smooth-scroll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enable support for smooth-scrolling on anchors.",
   "main": "index.js",
   "scripts": {
