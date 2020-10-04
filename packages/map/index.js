@@ -12,10 +12,11 @@ export default class Map {
 	 * @param selector
 	 * @param options
 	 */
-	constructor(selector, options = {}) {
+	constructor(selector, options = {}, apiKey = null) {
 
 		this.options = options;
 		this.selector = selector;
+		this.apiKey = apiKey;
 
 		this.setupMaps();
 	}
@@ -25,15 +26,13 @@ export default class Map {
 	 */
 	setupMaps() {
 
-		const apiKey = document.body.dataset.googleApiKey ? document.body.dataset.googleApiKey : undefined;
-
 		// If we don't have an API key, stop loading and show error.
-		if (apiKey === undefined) {
+		if (this.apiKey === undefined) {
 			console.error("A Google API key must be set in the settings to be able to load the Google Maps.");
 			return;
 		}
 
-		const api = new GoogleMapsApi(apiKey);
+		const api = new GoogleMapsApi(this.apiKey);
 		const maps = document.querySelectorAll(this.selector);
 
 		api.load().then(() => {
