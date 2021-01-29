@@ -1,17 +1,13 @@
 import BadgerAccordion from "badger-accordion";
 
-/**
- * Accordions
- */
 export default class Accordion {
 
-	constructor( selector = ".js--accordion", options = {} ) {
+	constructor( selector = '.js--accordion', options = {} ) {
 
 		this.selector = selector;
-		this.options  = options;
+		this.options = options;
 
 		this.setupAccordions();
-
 	}
 
 	setupAccordions() {
@@ -24,12 +20,12 @@ export default class Accordion {
 
 	getDefaultOptions() {
 		return {
-			activeClass: "is-active",
-			headerClass: ".js--accordion-header-trigger",
-			panelClass: ".js--accordion-panel",
-			panelInnerClass: ".js--accordion-panel-content",
-			hiddenClass: "is-hidden",
-			initialisedClass: "is-initialized",
+			activeClass: 'is-active',
+			headerClass: '.js--accordion-header-trigger',
+			panelClass: '.js--accordion-panel',
+			panelInnerClass: '.js--accordion-panel-content',
+			hiddenClass: 'is-hidden',
+			initialisedClass: 'is-initialized',
 		};
 	}
 
@@ -45,7 +41,7 @@ export default class Accordion {
 		 *
 		 * @type {boolean}
 		 */
-		const openMultiple = ( accordion.dataset.multiple === "true" );
+		const openMultiple = ( accordion.dataset.multiple === 'true' );
 
 		/**
 		 * Check whether we should have the first panel open by default when
@@ -53,7 +49,7 @@ export default class Accordion {
 		 *
 		 * @type {array}
 		 */
-		const openOnLoad = ( accordion.dataset.firstOpen === "true" ? [ 0 ] : [] );
+		const openOnLoad = ( accordion.dataset.firstOpen === 'true' ? [ 0 ] : [] );
 
 		/**
 		 * Get the param options and merge with the default options.
@@ -66,6 +62,16 @@ export default class Accordion {
 		} );
 
 		const initAccordion = new BadgerAccordion( accordion, options );
+
+		/**
+		 * If we have an anchor link that matches an accordion, we open it.
+		 */
+		if ( window.location.hash ) {
+			const accordionToOpen = document.querySelector( window.location.hash + ' > button' );
+			if ( accordionToOpen && accordionToOpen.dataset.badgerAccordionHeaderId ) {
+				initAccordion.open( parseInt( accordionToOpen.dataset.badgerAccordionHeaderId ) );
+			}
+		}
 
 	}
 
