@@ -89,7 +89,7 @@ export default class Map {
 		/**
 		 * Render markers if they exist.
 		 */
-		if (markers.length === 0) {
+		if (Object.keys(markers).length === 0) {
 			console.info("No markers were found for the map.");
 		} else {
 			this.renderMarkers(map, markers);
