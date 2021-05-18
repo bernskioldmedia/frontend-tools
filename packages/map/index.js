@@ -118,13 +118,15 @@ export default class Map {
 				map: map,
 				// icon: icon,
 				title: markerData.title,
-				content: template,
+				content: markerData.content !== '' ? template : null,
 				animation: google.maps.Animation.DROP,
 			});
 
-			const infoWindow = new google.maps.InfoWindow();
+			if(markerData.content !== '' ){
+				const infoWindow = new google.maps.InfoWindow();
 
-			this.onMarkerClick(map, marker, infoWindow);
+				this.onMarkerClick(map, marker, infoWindow);
+			}
 
 		});
 
